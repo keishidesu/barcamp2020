@@ -1,9 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/barcamp2020/'
-  }
-} : {}
-
 export default {
   mode: 'spa',
   /*
@@ -43,7 +37,6 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module'
   ],
-  ...routerBase,
   /*
   ** Nuxt.js modules
   */
@@ -68,5 +61,11 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  router: {
+    base: process.env.DEPLOY_PATH || '/'
+  },
+  env: {
+    base: process.env.DEPLOY_PATH || '/'
   }
 }
