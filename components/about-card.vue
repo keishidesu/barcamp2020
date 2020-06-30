@@ -8,7 +8,7 @@
       class="mt-4"
     >
       <b-img
-        :src="`/icon/${card.image}.png`"
+        :src="`${base}icon/${card.image}.png`"
         style="width:auto; height:12em"
         fluid
       />
@@ -23,6 +23,7 @@
 export default {
   data: () => {
     return {
+      base: process.env.base,
       cards: [
         {
           image: 'audspe',
