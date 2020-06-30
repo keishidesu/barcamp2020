@@ -7,21 +7,27 @@
           days
         </div>
       </b-col>
-      <p class="roboto-thin p-1" style="font-size:4em">:</p>
+      <p class="roboto-thin p-1" style="font-size:4em">
+        :
+      </p>
       <b-col col lg="1" class="roboto-thin hours mr-2 p-2" style="font-size:4em">
         {{ displayHrs }}
         <div class="absolute bottom-0 text-uppercase" style="font-size:0.25em">
           hours
         </div>
       </b-col>
-      <p class="roboto-thin p-1" style="font-size:4em">:</p>
+      <p class="roboto-thin p-1" style="font-size:4em">
+        :
+      </p>
       <b-col col lg="1" class="roboto-thin minutes mr-2 p-2" style="font-size:4em">
         {{ displayMins }}
         <div class="absolute bottom-0 text-uppercase" style="font-size:0.25em">
           minutes
         </div>
       </b-col>
-      <p class="roboto-thin p-1" style="font-size:4em">:</p>
+      <p class="roboto-thin p-1" style="font-size:4em">
+        :
+      </p>
       <b-col col lg="1" class="roboto-thin seconds mr-2 p-2" style="font-size:4em">
         {{ displaySecs }}
         <div class="absolute bottom-0 text-uppercase" style="font-size:0.25em">

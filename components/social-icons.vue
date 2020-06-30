@@ -1,7 +1,7 @@
 <template>
   <div class="icons">
-    <a href="https://www.facebook.com/ITsocietyMMU" target="_blank" class="facebook"><i class="fa fa-facebook"></i>Facebook</a>
-    <a href="https://www.instagram.com/itsocietymmu/" target="_blank" class="instagram"><i class="fa fa-instagram"></i>Instagram</a>
+    <a href="https://www.facebook.com/ITsocietyMMU" target="_blank" class="facebook"><i class="fa fa-facebook" />Facebook</a>
+    <a href="https://www.instagram.com/itsocietymmu/" target="_blank" class="instagram"><i class="fa fa-instagram" />Instagram</a>
   </div>
 </template>
 
@@ -21,7 +21,7 @@
     text-transform: uppercase;
     padding: 10px;
     font-size: 1.8em;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 2px;
     text-align: left;
     border-radius: 50px 0px 0px 50px;

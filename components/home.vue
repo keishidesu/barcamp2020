@@ -22,10 +22,26 @@
     </b-row>
     <b-row class="pt-2 pb-5 text-center animate__animated animate__fadeInUp animate__delay-1.3s">
       <b-col>
-        <b-button variant="outline-light" size="md" class="p-3 mr-1" style="width:8.5em" pill>
+        <b-button
+          href="https://forms.gle/bH4NuamofgKq4PXp9"
+          target="_blank"
+          variant="outline-light"
+          size="md"
+          class="p-3 mr-1"
+          style="width:8.5em"
+          pill
+        >
           Be a Speaker
         </b-button>
-        <b-button variant="light" size="md" class="p-3 ml-1" style="width:8.5em; color:purple;" pill>
+        <b-button
+          href="https://forms.gle/oUsnkzHNKjbNUPu88"
+          target="_blank"
+          variant="light"
+          size="md"
+          class="p-3 ml-1"
+          style="width:8.5em; color:purple;"
+          pill
+        >
           Register Now
         </b-button>
       </b-col>

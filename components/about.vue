@@ -1,43 +1,84 @@
 <template>
   <div>
-    <b-row>
+    <b-row class="animate__animated animate__fadeInLeft animate__delay-1.4s">
       <b-col col="12" lg="7">
-        <h3 class="animate__animated animate__fadeInLeft animate__delay-1.4s">
+        <h3>
           <b class="roboto-fat text-purple text-title">BarCamp Cyberjaya</b>
         </h3>
-        <h4 class="animate__animated animate__fadeInLeft animate__delay-1.4s">
+        <h4>
           <b class="roboto-fat text-purple">Share | Learn | Inspire</b>
         </h4>
-        <h5 class="roboto-light animate__animated animate__fadeInLeft animate__delay-1.5s text-purple text-justify mt-3" style="line-height:1.5em;">
+        <h5 class="roboto-light text-purple text-justify mt-3" style="line-height:1.5em;">
           {{ aboutDesc }}
         </h5>
         <b-row class="mt-4 d-none d-sm-block">
           <b-col>
-            <b-button variant="outline-light" size="lg" class="abt-btn p-3 mr-1" pill>
+            <b-button
+              href="https://forms.gle/bH4NuamofgKq4PXp9"
+              target="_blank"
+              variant="outline-light"
+              size="lg"
+              class="abt-btn p-3 mr-1"
+              pill
+            >
               Be a Speaker
             </b-button>
-            <b-button variant="outline-light" size="lg" class="abt-btn p-3 ml-1" pill>
+            <b-button
+              href ="mailto:itsociety.barcamp20@gmail.com"
+              target="_blank"
+              variant="outline-light"
+              size="lg"
+              class="abt-btn p-3 mr-1"
+              pill
+            >
               Be a Sponsor
             </b-button>
           </b-col>
         </b-row>
         <b-row class="mt-4 d-block d-sm-none">
           <b-col>
-            <b-button variant="outline-light" size="md" class="abt-btn p-3 mr-1" pill>
+            <b-button
+              href="https://forms.gle/bH4NuamofgKq4PXp9"
+              target="_blank"
+              variant="outline-light"
+              size="md"
+              class="abt-btn p-3 mr-1"
+              pill
+            >
               Be a Speaker
             </b-button>
-            <b-button variant="outline-light" size="md" class="abt-btn p-3 ml-1" pill>
+            <b-button
+              href ="mailto:itsociety.barcamp20@gmail.com"
+              target="_blank"
+              variant="outline-light"
+              size="md"
+              class="abt-btn p-3 mr-1"
+              pill
+            >
               Be a Sponsor
             </b-button>
           </b-col>
         </b-row>
       </b-col>
+      <b-col col="12" lg="5" class="d-none d-md-block text-center">
+        <b-img
+          src="~/assets/img/barcamp-fire.png"
+          style="width:auto; height:20em"
+          fluid
+        />
+      </b-col>
     </b-row>
+    <AboutCards />
   </div>
 </template>
 
 <script>
+import AboutCards from '~/components/about-card'
+
 export default {
+  components: {
+    AboutCards
+  },
   data: () => {
     return {
       aboutDesc: 'Barcamp Cyberjaya is an international network of user-generated conference that brings people together to share their passion around technology. There is no preset of speakers for BarCamp like usual conferences. Participants get to vote for speakers based on the topics proposed by speakers.'

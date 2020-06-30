@@ -44,17 +44,17 @@ export default {
         {
           id: '3',
           question: 'How do I apply to become a speaker?',
-          answer: 'You may register via this link: '
+          answer: 'You may register via this link: https://forms.gle/bH4NuamofgKq4PXp9'
         },
         {
           id: '4',
           question: 'How can I participate in this event as an audience?',
-          answer: 'You may register via this link: '
+          answer: 'You may register via this link: https://forms.gle/oUsnkzHNKjbNUPu88'
         },
         {
           id: '5',
           question: 'How do I sponsor this event?',
-          answer: 'You can contact us a this email: '
+          answer: 'You can contact us a this email: itsociety.barcamp20@gmail.com'
         },
         {
           id: '6',

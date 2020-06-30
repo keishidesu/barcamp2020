@@ -44,23 +44,27 @@ export default {
           navitem: 'About',
           destination: '#about'
         },
-        {
-          navitem: 'Agenda',
-          destination: '#agenda'
-        },
+        // {
+        //   navitem: 'Agenda',
+        //   destination: '#agenda'
+        // },
         {
           navitem: 'FAQ',
           destination: '#faq'
         },
         {
           navitem: 'Sponsors',
-          destination: '#sponsor'
+          destination: '/sponsor'
         }
       ],
       externalitems: [
         {
+          navitem: 'Register',
+          destination: 'https://forms.gle/yLiydr62cgkHF2Sp9'
+        },
+        {
           navitem: 'Vote for Talks',
-          destination: 'https://polys.me/'
+          destination: '/vote'
         }
       ]
     }
