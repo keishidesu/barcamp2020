@@ -67,5 +67,8 @@ export default {
   },
   env: {
     base: process.env.DEPLOY_PATH || '/'
+  },
+  generate: {
+    fallback: '404.html'
   }
 }
