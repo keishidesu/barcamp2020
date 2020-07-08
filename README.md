@@ -24,6 +24,6 @@ $ npm run generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-##Depolyment
+## Depolyment
 
 This website is deployed using the branch `gh-pages` hosted by github
