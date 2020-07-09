@@ -2,7 +2,9 @@
   <div class="bg-barcamp my-5 py-5">
     <b-container>
       <b-jumbotron class="text-center text-white bg-barcamp">
-        <template v-slot:header>Oops! This page is still in development</template>
+        <template v-slot:header>
+          Oops! This page is still in development
+        </template>
         <template v-slot:lead>
           {{ error.statusCode }} Page not found | Sorry for the inconvenience
         </template>
@@ -20,7 +22,7 @@ export default {
   layout: 'error-layout',
   props: {
     error: Object,
-    default: null
+    default: { }
   }
 }
 </script>

@@ -69,15 +69,18 @@
       </b-col>
     </b-row>
     <AboutCards />
+    <AboutVid />
   </div>
 </template>
 
 <script>
 import AboutCards from '~/components/about-card'
+import AboutVid from '~/components/about-vid'
 
 export default {
   components: {
-    AboutCards
+    AboutCards,
+    AboutVid
   },
   data: () => {
     return {

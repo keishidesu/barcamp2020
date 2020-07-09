@@ -17,7 +17,12 @@
               </h5>
             </b-link>
             <b-collapse :id="`faq-${faq.id}`" visible accordion="my-accordion" role="tabpanel" class="mt-3">
-              <b-card-text>{{ faq.answer }}</b-card-text>
+              <b-card-text>
+                {{ faq.answer }}
+                <a v-if="faq.link" :href="`${faq.link}`">
+                  {{ faq.link }}
+                </a>
+              </b-card-text>
             </b-collapse>
           </li>
         </ul>
@@ -44,12 +49,14 @@ export default {
         {
           id: '3',
           question: 'How do I apply to become a speaker?',
-          answer: 'You may register via this link: https://forms.gle/bH4NuamofgKq4PXp9'
+          answer: 'You may register via this link:',
+          link: 'https://forms.gle/bH4NuamofgKq4PXp9'
         },
         {
           id: '4',
           question: 'How can I participate in this event as an audience?',
-          answer: 'You may register via this link: https://forms.gle/oUsnkzHNKjbNUPu88'
+          answer: 'You may register via this link:',
+          link: 'https://forms.gle/oUsnkzHNKjbNUPu88'
         },
         {
           id: '5',
