@@ -1,18 +1,6 @@
 {
   "sponsors": [
     {
-      "company": "IX Telecom",
-      "tier": "Platinum",
-      "color": "A9A9A9",
-      "href": "http://ixtelecom.net/",
-      "img": "ixtelecom",
-      "desc": [
-        "IX was established in 2008, emerging from the trending business model from other virtual network operators overseas. IX Telecom provides a full spectrum of connectivity, ICT, and managed services worldwide. We simplify global access and ensure premium services at affordable pricing for any enterprise. We offer One-Stop Solutions with strong capabilities in SD-WAN, network connectivity, data center & colocation, network monitoring, managed equipment, and other professional services.",
-
-        "Connecting the unconnected is at the core of our vision as we strive to ensure enterprises, governments, clients, and the community at large are fully catered to. Now, IX is proudly connected to 300++ service providers, 265++ data centers globally, and 8 main cloud providers with a dedicated team of internationally certified experts in Malaysia, Singapore,Hong Kong, Indonesia, the USA, and most recently Myanmar."
-      ]
-    },
-    {
       "company": "Deriv",
       "tier": "Platinum", 
       "color": "A9A9A9",
@@ -22,6 +10,18 @@
         "Deriv Services Sdn Bhd is the operational headquarters in Cyberjaya for Deriv.com (formerly Binary.com), a pioneer in online trading. Focused on customer-centricsolutions, we aspire to be the world’s leading online trading service provider. The scale and complexity of our mission require smart, talented, and dedicated people who are up for a challenge to make online trading on the world’s financial markets accessible to anyone.",
 
         "A career at Deriv.com offers you the opportunity to make an impact in a fast-growing organisation that's at the cutting edge of online trading technology."
+      ]
+    },
+    {
+      "company": "IX Telecom",
+      "tier": "Platinum",
+      "color": "A9A9A9",
+      "href": "http://ixtelecom.net/",
+      "img": "ixtelecom",
+      "desc": [
+        "IX was established in 2008, emerging from the trending business model from other virtual network operators overseas. IX Telecom provides a full spectrum of connectivity, ICT, and managed services worldwide. We simplify global access and ensure premium services at affordable pricing for any enterprise. We offer One-Stop Solutions with strong capabilities in SD-WAN, network connectivity, data center & colocation, network monitoring, managed equipment, and other professional services.",
+
+        "Connecting the unconnected is at the core of our vision as we strive to ensure enterprises, governments, clients, and the community at large are fully catered to. Now, IX is proudly connected to 300++ service providers, 265++ data centers globally, and 8 main cloud providers with a dedicated team of internationally certified experts in Malaysia, Singapore,Hong Kong, Indonesia, the USA, and most recently Myanmar."
       ]
     },
     {
