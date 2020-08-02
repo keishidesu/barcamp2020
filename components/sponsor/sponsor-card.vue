@@ -12,9 +12,9 @@
               {{ sponsor.company }}
               <b-badge :style="`background-color:#${sponsor.color}`" pill>{{ sponsor.tier }}</b-badge>
             </b-card-title>
-            <b-card-text v-for="(desc, key) in sponsor.desc" :key="`desc-${key}`">
+            <!-- <b-card-text v-for="(desc, key) in sponsor.desc" :key="`desc-${key}`">
               {{ desc }}
-            </b-card-text>
+            </b-card-text> -->
             <a :href="`${sponsor.href}`" target="_blank">
               <b-button variant="outline-dark">Visit Website</b-button>
             </a>
