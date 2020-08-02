@@ -35,11 +35,11 @@ export default {
       homeitems: [
         {
           navitem: 'Home',
-          destination: '#home'
+          destination: '/'
         },
         {
           navitem: 'About',
-          destination: '#about'
+          destination: '/#about'
         },
         // {
         //   navitem: 'Agenda',
@@ -47,7 +47,7 @@ export default {
         // },
         {
           navitem: 'FAQ',
-          destination: '#faq'
+          destination: '/#faq'
         },
         {
           navitem: 'Sponsors',

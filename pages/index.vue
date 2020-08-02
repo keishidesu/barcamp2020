@@ -38,9 +38,9 @@
       <carousel />
     </div>
 
-    <!-- <div id="sponsor" class="bg-pale pt-5 pb-5">
+    <div id="sponsor" class="pt-5 pb-5">
       <sponsor />
-    </div> -->
+    </div>
   </body>
 </template>
 
@@ -52,7 +52,7 @@ import About from '~/components/about'
 import Carousel from '~/components/carousel'
 // import Agenda from '~/components/agenda'
 import Faq from '~/components/faq'
-// import Sponsor from '~/components/sponsor'
+import Sponsor from '~/components/sponsor'
 
 export default {
   components: {
@@ -62,8 +62,8 @@ export default {
     About,
     Carousel,
     // Agenda,
-    Faq
-    // Sponsor
+    Faq,
+    Sponsor
   }
 }
 

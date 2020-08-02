@@ -44,7 +44,7 @@ export default {
         {
           id: '2',
           question: 'How will the event be held?',
-          answer: 'To ensure every participant\'s safety, our event will be held online. The platform we will be using is Google Meet, and the registered audience will receive our invitation to join the room. Speakers will then share knowledge with the audience after they join the room.'
+          answer: 'To ensure every participant\'s safety, the event will be held online. The platform we will be using is Google Meet, and the registered audience will receive an invitation to join the room. Speakers will then share their knowledge with the audience after they join the room.'
         },
         {
           id: '3',
