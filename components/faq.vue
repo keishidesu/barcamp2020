@@ -1,6 +1,25 @@
 <template>
   <b-container>
-    <h3>
+    <b-row>
+      <b-col>
+        <h4 class="mt-2">
+          <b class="roboto-fat text-purple text-title">How will the Event be Held?</b>
+        </h4>
+        <h5 class="roboto-light text-purple text-justify mt-3" style="line-height:1.5em;">
+          To ensure every participant's safety, the event will be held online. The platform we will be using is Google Meet, and the registered audience will receive an invitation to join the room. Speakers will then share their knowledge with the audience after they join the room.
+        </h5>
+        <div class="d-md-none text-center mt-4">
+          <b-button v-b-toggle.collapse-1 variant="outline-dark">Learn More</b-button>
+          <b-collapse id="collapse-1" class="mt-4">
+            <b-img src="~/assets/img/barcamp-schedule.png" fluid />
+          </b-collapse>
+        </div>
+      </b-col>
+      <b-col class="d-none d-md-block">
+        <b-img src="~/assets/img/barcamp-schedule.png" fluid style="height:40rem" />
+      </b-col>
+    </b-row>
+    <h3 class="mt-4">
       <b class="roboto-fat text-purple text-title">FAQs</b>
     </h3>
     <div role="tablist" class="mt-3">
@@ -43,33 +62,28 @@ export default {
         },
         {
           id: '2',
-          question: 'How will the event be held?',
-          answer: 'To ensure every participant\'s safety, the event will be held online. The platform we will be using is Google Meet, and the registered audience will receive an invitation to join the room. Speakers will then share their knowledge with the audience after they join the room.'
-        },
-        {
-          id: '3',
           question: 'How do I apply to become a speaker?',
           answer: 'You may register via this link:',
           link: 'https://forms.gle/bH4NuamofgKq4PXp9'
         },
         {
-          id: '4',
+          id: '3',
           question: 'How can I participate in this event as an audience?',
           answer: 'You may register via this link:',
           link: 'https://forms.gle/oUsnkzHNKjbNUPu88'
         },
         {
-          id: '5',
+          id: '4',
           question: 'How do I sponsor this event?',
           answer: 'You can contact us a this email: itsociety.barcamp20@gmail.com'
         },
         {
-          id: '6',
+          id: '5',
           question: 'How long is each session?',
           answer: 'Each session is about 45 minutes duration.'
         },
         {
-          id: '7',
+          id: '6',
           question: 'Do I have to pay any registration fee?',
           answer: 'No, registration is free!'
         }
