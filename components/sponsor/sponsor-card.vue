@@ -15,7 +15,9 @@
             <b-card-text v-for="(desc, key) in sponsor.desc" :key="`desc-${key}`">
               {{ desc }}
             </b-card-text>
-            <b-button variant="outline-dark">Visit Website</b-button>
+            <a :href="`${sponsor.href}`" target="_blank">
+              <b-button variant="outline-dark">Visit Website</b-button>
+            </a>
           </b-col>
         </b-row>
       </b-card>

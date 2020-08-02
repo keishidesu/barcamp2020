@@ -5,7 +5,9 @@
     </h3>
     <b-row class="mt-3">
       <b-col v-for="(sponsor, key) in sponsors" :key="`sponsor-${key}`" align-self="center">
-        <b-img :src="`/sponsor/${sponsor.img}.jpg`" fluid />
+        <a :href="`${sponsor.href}`" target="_blank">
+          <b-img :src="`/sponsor/${sponsor.img}.jpg`" fluid />
+        </a>
       </b-col>
     </b-row>
   </b-container>
