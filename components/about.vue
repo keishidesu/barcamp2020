@@ -18,20 +18,20 @@
               target="_blank"
               variant="outline-light"
               size="lg"
-              class="abt-btn p-3 mr-1"
+              class="abt-btn p-2 mr-1"
               pill
             >
               Be a Speaker
             </b-button>
             <b-button
-              href ="mailto:itsociety.barcamp20@gmail.com"
+              href ="https://forms.gle/g3WQFXg1vW9vxGLy8"
               target="_blank"
               variant="outline-light"
               size="lg"
-              class="abt-btn p-3 mr-1"
+              class="abt-btn p-2 mr-1"
               pill
             >
-              Be a Sponsor
+              Be an Audience
             </b-button>
           </b-col>
         </b-row>

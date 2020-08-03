@@ -58,7 +58,7 @@ export default {
         {
           id: '1',
           question: 'What is the theme for Barcamp Cyberjaya 2020?',
-          answer: 'The theme for Barcamp Cyberjaya 2020 will be based around: Technology, Healthcare and Entrepreneurship.'
+          answer: 'The theme for Barcamp Cyberjaya 2020 will be based around: Technology, Healthcare, Education and Entrepreneurship.'
         },
         {
           id: '2',
