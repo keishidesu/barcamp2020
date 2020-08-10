@@ -1,5 +1,5 @@
 <template>
-  <b-container class="p-4">
+  <b-container class="px-4 pb-4 pt-2 pt-md-4">
     <homenav />
     <b-row class="pt-3">
       <b-col cols="12">

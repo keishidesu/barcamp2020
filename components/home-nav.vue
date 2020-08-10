@@ -1,9 +1,12 @@
 <template>
   <b-navbar toggleable="lg" type="dark" class="roboto">
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-brand href="#home">
-        <b-img src="~/assets/img/barcamp-logo.png" style="height:2em" />
-      </b-navbar-brand>
+    <b-navbar-brand href="#home">
+      <b-img src="~/assets/img/barcamp-logo.png" style="height:2em" />
+    </b-navbar-brand>
+
+    <b-navbar-toggle target="home-nav-collapse" />
+
+    <b-collapse id="home-nav-collapse" is-nav>
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto text-white">
         <b-nav-item
@@ -30,6 +33,13 @@
 
 <script>
 export default {
+  props: {
+    hideLogo: {
+      type: Boolean,
+      required: false,
+      default: false
+    }
+  },
   data: () => {
     return {
       homeitems: [
