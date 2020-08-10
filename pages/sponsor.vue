@@ -11,8 +11,8 @@
         <navbar />
       </div>
     </div>
-    <div id="sponsor-card">
-      <SponsorCard />
+    <div class="py-5 bg-pale">
+      <Sponsor :simple="false" />
     </div>
   </body>
 </template>
@@ -21,14 +21,14 @@
 import Socialicon from '~/components/social-icons'
 import Navbar from '~/components/navbar'
 import Homenav from '~/components/home-nav'
-import SponsorCard from '~/components/sponsor/sponsor-card'
+import Sponsor from '~/components/sponsor'
 
 export default {
   components: {
     Socialicon,
     Navbar,
     Homenav,
-    SponsorCard
+    Sponsor
   }
 }
 

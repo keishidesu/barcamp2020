@@ -9,7 +9,9 @@
           To ensure every participant's safety, the event will be held online. The platform we will be using is Google Meet, and the registered audience will receive an invitation to join the room. Speakers will then share their knowledge with the audience after they join the room.
         </h5>
         <div class="d-md-none text-center mt-4">
-          <b-button v-b-toggle.collapse-1 variant="outline-dark">Learn More</b-button>
+          <b-button v-b-toggle.collapse-1 variant="outline-dark">
+            Learn More
+          </b-button>
           <b-collapse id="collapse-1" class="mt-4">
             <b-img src="~/assets/img/barcamp-schedule.png" fluid />
           </b-collapse>

@@ -1,41 +1,69 @@
 <template>
-  <b-container class="py-5">
-    <div class="py-1" style="font-size:3rem">Sponsors</div>
-    <div v-for="(sponsor, key) in sponsors" :key="`sponsor-${key}`" class="py-3">
-      <b-card class="bg-pale border-0 shadow">
-        <b-row>
-          <b-col md="3" class="text-center mb-3" align-self="center">
-            <b-img :src="`/sponsor/${sponsor.img}.png`" img-left width="250" fluid />
-          </b-col>
-          <b-col align-self="center">
-            <b-card-title>
-              {{ sponsor.company }}
-              <b-badge :style="`background-color:#${sponsor.color}`" pill>{{ sponsor.tier }}</b-badge>
-            </b-card-title>
-            <!-- <b-card-text v-for="(desc, key) in sponsor.desc" :key="`desc-${key}`">
-              {{ desc }}
-            </b-card-text> -->
-            <a :href="`${sponsor.href}`" target="_blank">
-              <b-button variant="outline-dark">Visit Website</b-button>
-            </a>
-          </b-col>
-        </b-row>
-      </b-card>
+  <b-card
+    no-body
+    :style="{
+      border: (simple) ? 'none' : `1rem outset #${getColor(tier)}`
+    }"
+    class="text-center mt-4"
+  >
+    <div v-if="!simple" class="position-absolute" style="top: 5px; right: 10px">
+      <b-badge :style="{ backgroundColor: `#${getColor(tier)}` }" style="color: rgba(0, 0, 0, 0.5);">
+        {{ tier }}
+      </b-badge>
     </div>
-  </b-container>
+    <b-card-body>
+      <a :href="`${websiteUrl}`" target="_blank">
+        <b-img
+          rounded
+          fluid
+          :src="`/sponsor/${imageUrl}.jpg`"
+          :width="250"
+        />
+      </a>
+    </b-card-body>
+    <b-card-footer v-if="!simple" class="border-0 rounded" :style="{ backgroundColor: `#${getColor(tier)}14` }">
+      <b>{{ name }}</b>
+    </b-card-footer>
+  </b-card>
 </template>
-<script>
-import { sponsors } from '~/assets/json/sponsor.json'
 
+<script>
 export default {
-  data: () => {
-    return {
-      sponsors
+  props: {
+    simple: {
+      type: Boolean,
+      required: false,
+      default: true
+    },
+    imageUrl: {
+      type: String,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    tier: {
+      type: String,
+      required: true
+    },
+    websiteUrl: {
+      type: String,
+      required: true
+    }
+  },
+  methods: {
+    getColor (tier) {
+      if (tier === 'Platinum') {
+        return 'e6feff'
+      } else if (tier === 'Gold') {
+        return 'fff0b5'
+      } else if (tier === 'Silver') {
+        return 'E6E6FA'
+      } else {
+        return 'e0d0bc'
+      }
     }
   }
 }
 </script>
-
-<style>
-
-</style>
