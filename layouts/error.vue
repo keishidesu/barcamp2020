@@ -21,8 +21,10 @@
 export default {
   layout: 'error-layout',
   props: {
-    error: Object,
-    default: { }
+    error: {
+      type: Object,
+      default: () => {}
+    }
   }
 }
 </script>

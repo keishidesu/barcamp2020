@@ -24,7 +24,7 @@
               Be a Speaker
             </b-button>
             <b-button
-              href ="https://forms.gle/g3WQFXg1vW9vxGLy8"
+              href="https://forms.gle/g3WQFXg1vW9vxGLy8"
               target="_blank"
               variant="outline-light"
               size="lg"
@@ -48,7 +48,7 @@
               Be a Speaker
             </b-button>
             <b-button
-              href ="mailto:itsociety.barcamp20@gmail.com"
+              href="mailto:itsociety.barcamp20@gmail.com"
               target="_blank"
               variant="outline-light"
               size="md"
