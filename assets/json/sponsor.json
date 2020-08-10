@@ -34,6 +34,24 @@
 
         "Established in 2012, Bluecrystal Solutions is dedicated to providing wide range of custom made web and mobile application solutions to our clients across Malaysia in various sectors such as travel agencies, consumer retails, distribution & logistic, finance institutions etc. We aim to provide high value solutions that will enable our clients to completely stay focus on their core competencies."
       ]
+    },
+    {
+      "company": "IEEE MMU Student Branch",
+      "tier": "Partner",
+      "href": "https://www.facebook.com/IEEE.MMU.StudentBranch",
+      "img": "ieee",
+      "desc": [
+
+      ]
+    },
+    {
+      "company": "Monsta Asia",
+      "tier": "Partner",
+      "href": "https://community.gomonsta.asia/",
+      "img": "monsta",
+      "desc": [
+        
+      ]
     }
   ]
 }
