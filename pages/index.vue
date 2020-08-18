@@ -26,9 +26,9 @@
       <register />
     </div> -->
 
-    <!-- <div id="agenda" class="pt-5 pb-5">
-      <agenda />
-    </div> -->
+    <div id="votingResult" class="pt-5 pb-5">
+      <Voting />
+    </div>
 
     <div id="faq" class="pt-5 pb-5">
       <faq />
@@ -50,7 +50,7 @@ import Navbar from '~/components/navbar'
 import Home from '~/components/home'
 import About from '~/components/about'
 import Carousel from '~/components/carousel'
-// import Agenda from '~/components/agenda'
+import Voting from '~/components/voting'
 import Faq from '~/components/faq'
 import Sponsor from '~/components/sponsor'
 
@@ -61,7 +61,7 @@ export default {
     Home,
     About,
     Carousel,
-    // Agenda,
+    Voting,
     Faq,
     Sponsor
   }
