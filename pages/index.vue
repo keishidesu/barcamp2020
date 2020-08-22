@@ -26,7 +26,7 @@
       <register />
     </div> -->
 
-    <div id="votingResult" class="pt-5 pb-5">
+    <div id="vote" class="pt-5 pb-5">
       <Voting />
     </div>
 
