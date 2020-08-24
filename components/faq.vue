@@ -74,11 +74,11 @@ export default {
           answer: 'You may register via this link:',
           link: 'https://forms.gle/oUsnkzHNKjbNUPu88'
         },
-        {
-          id: '4',
-          question: 'How do I sponsor this event?',
-          answer: 'You can contact us a this email: itsociety.barcamp20@gmail.com'
-        },
+        // {
+        //   id: '4',
+        //   question: 'How do I sponsor this event?',
+        //   answer: 'You can contact us a this email: itsociety.barcamp20@gmail.com'
+        // },
         {
           id: '5',
           question: 'How long is each session?',

@@ -61,7 +61,7 @@ export default {
   data: () => {
     return {
       date: 'August 29',
-      time: '1.30 to 7.20pm'
+      time: '1.30pm to 7.20pm'
     }
   }
 }
