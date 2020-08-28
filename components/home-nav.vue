@@ -51,10 +51,10 @@ export default {
           navitem: 'About',
           destination: '/#about'
         },
-        // {
-        //   navitem: 'Agenda',
-        //   destination: '#agenda'
-        // },
+        {
+          navitem: 'Agenda',
+          destination: '/#agenda'
+        },
         {
           navitem: 'FAQ',
           destination: '/#faq'

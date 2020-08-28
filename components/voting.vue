@@ -1,18 +1,22 @@
 <template>
   <b-container>
+    <h4>
+      <b class="roboto-fat text-purple text-title">Live Results of Voting for Talks</b>
+    </h4>
+    <iframe
+      width="100%"
+      height="500"
+      seamless
+      frameborder="0"
+      scrolling="yes"
+      fluid
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQebiu0cE13cVdeldQWmWZZHDAE3a3q2sieCRqmUizW0DGh7eLEzM-MGFioJgCPjkNE58lfPINM2fud/pubchart?oid=1258743678&amp;format=interactive"
+      class="mt-2"
+    >
+    </iframe>
     <h4 class="mt-2">
       <b class="roboto-fat text-purple text-title">Voting Results of Proposed Talks</b>
     </h4>
-    <b-button
-      href="https://forms.gle/eT3SrzGJPM78MJsF9"
-      target="_blank"
-      variant="outline-light"
-      size="lg"
-      class="abt-btn p-3 mr-1 mt-2"
-      pill
-    >
-      Vote for Talks
-    </b-button>
     <iframe
       width="100%"
       height="399"

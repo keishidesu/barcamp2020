@@ -26,6 +26,10 @@
       <register />
     </div> -->
 
+    <div id="agenda" class="pt-5 pb-5">
+      <Agenda />
+    </div>
+
     <div id="vote" class="pt-5 pb-5">
       <Voting />
     </div>
@@ -53,6 +57,7 @@ import Carousel from '~/components/carousel'
 import Voting from '~/components/voting'
 import Faq from '~/components/faq'
 import Sponsor from '~/components/sponsor'
+import Agenda from '~/components/agenda'
 
 export default {
   components: {
@@ -63,7 +68,8 @@ export default {
     Carousel,
     Voting,
     Faq,
-    Sponsor
+    Sponsor,
+    Agenda
   }
 }
 

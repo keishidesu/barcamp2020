@@ -23,15 +23,14 @@
     <b-row class="pt-2 pb-5 text-center animate__animated animate__fadeInUp animate__delay-1.3s">
       <b-col>
         <b-button
-          href="https://forms.gle/bH4NuamofgKq4PXp9"
-          target="_blank"
+          href="/#agenda"
           variant="outline-light"
           size="md"
           class="p-3 mr-1"
-          style="width:8.5em"
+          style="width:12em"
           pill
         >
-          Be a Speaker
+          View Webinar Links
         </b-button>
         <b-button
           href="https://forms.gle/oUsnkzHNKjbNUPu88"
@@ -61,7 +60,7 @@ export default {
   data: () => {
     return {
       date: 'August 29',
-      time: '1.30pm to 7.20pm'
+      time: '2.00pm to 7.30pm'
     }
   }
 }

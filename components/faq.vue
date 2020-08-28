@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-row>
+    <!-- <b-row>
       <b-col>
         <h4 class="mt-2">
           <b class="roboto-fat text-purple text-title">How will the Event be Held?</b>
@@ -20,7 +20,7 @@
       <b-col class="d-none d-md-block">
         <b-img src="~/assets/img/barcamp-schedule.png" fluid style="height:40rem" />
       </b-col>
-    </b-row>
+    </b-row> -->
     <h3 class="mt-4">
       <b class="roboto-fat text-purple text-title">FAQs</b>
     </h3>
@@ -62,12 +62,12 @@ export default {
           question: 'What is the theme for Barcamp Cyberjaya 2020?',
           answer: 'The theme for Barcamp Cyberjaya 2020 will be based around: Technology, Healthcare, Education and Entrepreneurship.'
         },
-        {
-          id: '2',
-          question: 'How do I apply to become a speaker?',
-          answer: 'You may register via this link:',
-          link: 'https://forms.gle/bH4NuamofgKq4PXp9'
-        },
+        // {
+        //   id: '2',
+        //   question: 'How do I apply to become a speaker?',
+        //   answer: 'You may register via this link:',
+        //   link: 'https://forms.gle/bH4NuamofgKq4PXp9'
+        // },
         {
           id: '3',
           question: 'How can I participate in this event as an audience?',
