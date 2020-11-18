@@ -14,6 +14,10 @@
       </div>
     </div>
 
+    <div id="tcd">
+      <tcd />
+    </div>
+
     <div class="bg-pale">
       <b-container>
         <div id="about" class="pt-5 pb-5">
@@ -58,6 +62,7 @@ import Voting from '~/components/voting'
 import Faq from '~/components/faq'
 import Sponsor from '~/components/sponsor'
 import Agenda from '~/components/agenda'
+import Tcd from '~/components/tcd/tcd'
 
 export default {
   components: {
@@ -69,7 +74,8 @@ export default {
     Voting,
     Faq,
     Sponsor,
-    Agenda
+    Agenda,
+    Tcd
   }
 }
 
